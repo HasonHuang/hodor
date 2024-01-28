@@ -1,0 +1,17 @@
+if ($0.id <= 0) {
+    return false;
+}
+
+if ($0.map.名字 == nil) {
+    println('map.名字 is nil');
+    return false;
+}
+
+$0.map.变量1 = '值2';
+$0.map.[4] = 'V2';
+$0.map.['2变量'] = 'V3';
+
+
+p($0);
+
+return true;
